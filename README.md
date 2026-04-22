@@ -1,7 +1,7 @@
-<<<<<<< HEAD
-# linux_doc
-##Guia de instalação e configuração de distribuição Linux via VirtualBox. Repositório dedicado à documentação técnica de administração de sistemas.
-=======
+
+Linux - Documentação 
+### Guia de instalação e configuração de distribuição Linux via VirtualBox. Repositório dedicado à documentação técnica de administração de sistemas.
+
 # Relatório de Instalação Linux
 
 ## Projeto: Administração de Sistemas
@@ -23,5 +23,8 @@
  
 2. ### Dificuldades encontradas com `nano` e `vim`
 - Sem maiores adversidades com o `nano` (Editor Simples)
-- Foi necessário a instalação do `vim` 
-```Passo a passo será adicionado posteriormente
+- Foi necessário a instalação do `vim`:  
+   `sudo apt update` : Atualiza a lista de repositórios para garantir a instalação de pacotes recentes 
+   `sudo apt install vim -y`: Instala o editor utilizando privilégios de `root` _(superuser)_
+  
+
